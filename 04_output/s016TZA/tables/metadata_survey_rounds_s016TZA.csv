@@ -1,0 +1,17 @@
+"wave_name","date","wave_number","topic","time_from_BL","months_from_BL","long_name","response_rate"
+"baseline","2012-11-01",-4,"Baseline",0,0,"Baseline
+(Face to Face)",1
+"r01","2013-04-01",1,"Form 4 exam results",151,5,"Round 01",0.853707414829659
+"r02","2013-04-01",2,"Capitation grants in 
+                   education",151,5,"Round 02",0.847695390781563
+"r03","2013-05-01",3,"Access to information",181,6,"Round 03",0.828657314629259
+"r04","2013-06-01",4,"Health",212,7,"Round 04",0.824649298597194
+"r05","2013-07-01",5,"Draft 
+                   Constitution",242,8,"Round 05",0.814128256513026
+"r06","2013-08-01",6,"Water",273,9,"Round 06",0.809619238476954
+"r07","2013-09-01",7,"Corruption",304,10,"Round 07",0.680861723446894
+"r08","2013-10-01",8,"Security",334,11,"Round 08",0.792585170340681
+"r10","2013-10-01",10,"Political 
+                   Poll",334,11,"Round 10",0.751503006012024
+"r14","2014-03-01",14,"Second Draft Constitution",485,16,"Round 14",0.737975951903808
+"r24","2014-09-01",24,"Political Poll",669,22,"Round 24",0.68687374749499
