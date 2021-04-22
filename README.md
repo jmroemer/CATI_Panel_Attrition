@@ -54,8 +54,5 @@ The sheets “TZA_variable_formatting” and “SEN_variable_formatting” illus
 * Survey – [Listening to Senegal]( https://www.ansd.sn/index.php?option=com_content&view=article&id=344), Year 2014-2017, National Agency for Statistics and Demography (ANSD) of the Republic of Senegal , www.ansd.sn
 * Twaweza, [Sauti za Wananchi survey]( https://www.twaweza.org/go/sauti-za-wananchi-english) (Rounds 1-24, October 2012-September 2014), twaweza.org
 
-## Contributions
-This project is part of my internship with Innovations for Poverty Action. It evolved in close collaboration of Michael Rosenbaum who provided strong support and guidance. 
-
 ## License 
 All code in this repository is released under a [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
