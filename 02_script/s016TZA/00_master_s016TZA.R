@@ -75,8 +75,7 @@
 ## D. Package Management ------------------------------------------------------
     
     # Create a vector containing the names of all required packages. 
-    packages <- c("tidyverse", "arm", "broom", "data.table", "directlabels", 
-                  "dtplyr", "haven", "kableExtra", "lmtest",        
+    packages <- c("tidyverse", "directlabels", "haven", "kableExtra", "lmtest",        
                   "plyr", "sandwich", "see")
     
     # Check for new packages.
