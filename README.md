@@ -19,10 +19,10 @@ Graphs showing how response rate, mean of the selected binary variables and age 
 * A graph containing one violin plot per survey round showing the age distribution of this round’s respondents.    
 
 ## Usage
-The code takes survey data of each survey round in wide format as input: Each row representing a survey participant, and each column corresponding to one variable, including a participant identifier (in case of the L2S data this identifier is created by the script [01b_create_IDs_and_metadata.R](https://github.com/jmroemer/CATI_Panel_Attrition/blob/main/02_script/s016SEN/01b_create_IDs_and_metadata.R)). The code merges the datasets of each survey round by the identifier column and analyzes attrition with regard to response rate development and potential introduction of biases. More information about the analysis process can be found in the [Methods Appendix](https://github.com/jmroemer/CATI_Panel_Attrition/blob/main/Methods_Appendix.pdf).
+The code takes survey data of each survey round in wide format as input: Each row representing a survey participant, and each column corresponding to one variable, including a participant identifier (in case of the L2S data this identifier is created by the script [01b_create_IDs_and_metadata.R](https://github.com/jmroemer/CATI_Panel_Attrition/blob/main/02_script/s016SEN/01b_create_IDs_and_metadata.R)). The code merges the datasets of each survey round by the identifier column and analyzes attrition with regard to response rate development and potential introduction of biases. More information about the analysis process and used packages can be found in the [Methods Appendix](https://github.com/jmroemer/CATI_Panel_Attrition/blob/main/Methods_Appendix.pdf).
 
-This project uses the renv package for dependency management.
-Opening the RStudio project files will create a project library in the project folder and install renv to this library. renv::restore() will add required packages to this library. 
+This project uses the [renv](https://rstudio.github.io/renv/index.html) package for dependency management.
+Opening the RStudio project files will create a project library in the project folder and install renv to this library. Calling renv::restore() will add required packages to this library. 
 The same can be achieved by running 00_master_[study_id].R and following the prompts in the console.
     
 ### Reproducing the outputs in the [Output folder](https://github.com/jmroemer/CATI_Panel_Attrition/tree/main/04_output)
@@ -54,7 +54,11 @@ The sheets “TZA_variable_formatting” and “SEN_variable_formatting” illus
 ### Data
 * Survey – [Listening to Senegal]( https://www.ansd.sn/index.php?option=com_content&view=article&id=344), Year 2014-2017, National Agency for Statistics and Demography (ANSD) of the Republic of Senegal , www.ansd.sn
 * Twaweza, [Sauti za Wananchi survey]( https://www.twaweza.org/go/sauti-za-wananchi-english) (Rounds 1-24, October 2012-September 2014), twaweza.org
-    
+
+### Report on analysis and results
+The main results of this analysis are presented in the Innovations for Poverty Action Evidence Brief [Attrition in Mobile Phone Panel Surveys](https://www.poverty-action.org/publication/evidence-brief-attrition-mobile-phone-panel-surveys). 
+Additional information about the analysis can be found in [Methods_Appendix.pdf](https://github.com/jmroemer/Methods_Appendix.pdf)
+
 ## License 
 All code in this repository is released under a [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.<br>
 <br>
